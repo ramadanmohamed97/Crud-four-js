@@ -1,0 +1,109 @@
+
+
+.main {
+    background-image: url('../images/pexels-eberhardgross-454880.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 10, 0, 0.5);
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    transition: height 1s linear;
+    overflow: hidden;
+    width: 400px;
+}
+
+.main-1{
+    background-image: url('../images/lake-mountains.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 10, 0, 0.5);
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    transition: height 1s linear;
+    overflow: hidden;
+    width: 400px;
+}
+
+
+/* css welcome  */
+
+
+
+.welcome {
+    background-image: url('../images/fons-heijnsbroek-5rPKNU_bcNk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.welcome .form-container {
+   backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 10, 0, 0.5);
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    transition: height 1s linear;
+    overflow: hidden;
+    width: 400px;
+}
+
+.button-logout {
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+}
+
+
+.button-logout button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button-logout button:hover {
+    background-color: #849c89;
+}
+
+.button-logout a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
